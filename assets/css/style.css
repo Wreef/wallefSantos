@@ -964,7 +964,7 @@ main {
 .project-img {
   position: relative;
   width: 100%;
-  height: 200px;
+  aspect-ratio: 1 / 0.8;
   border-radius: 16px;
   overflow: hidden;
   margin-bottom: 15px;
@@ -1904,3 +1904,4 @@ textarea.form-input::-webkit-resizer { display: none; }
 .capitalize:first-letter {
   text-transform: uppercase;
 }
+
