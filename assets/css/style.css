@@ -231,7 +231,6 @@ article.active {
 .h4,
 .h5 {
   color: var(--white-2);
-  text-transform: capitalize;
 }
 
 .h2 { font-size: var(--fs-1); }
@@ -1897,4 +1896,11 @@ textarea.form-input::-webkit-resizer { display: none; }
 
   .timeline-text { max-width: 700px; }
 
+}
+
+.capitalize {
+  text-transform: lowercase;
+}
+.capitalize:first-letter {
+  text-transform: uppercase;
 }
