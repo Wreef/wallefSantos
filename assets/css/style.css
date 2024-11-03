@@ -214,7 +214,6 @@ article.active {
   padding-top: 45px;
   border-radius: 14px;
   box-shadow: var(--azul-m);
-  cursor: pointer;
   z-index: 1;
 }
 
